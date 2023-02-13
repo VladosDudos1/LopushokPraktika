@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище LopushokChiypeshModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Agent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="80" />
+  </EntityType>
+  <EntityType Name="Material">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="MaterialTypeId" Type="int" />
+    <Property Name="QuantityInPackage" Type="int" />
+    <Property Name="UnitId" Type="int" />
+    <Property Name="QuantityInStock" Type="int" />
+    <Property Name="MinRemainder" Type="int" />
+    <Property Name="Price" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="MaterialType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Article" Type="int" />
+    <Property Name="Name" Type="nvarchar" MaxLength="80" />
+    <Property Name="MinPrice" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="ProductTypeId" Type="int" />
+    <Property Name="ManForProduction" Type="int" />
+    <Property Name="WorkshopId" Type="int" />
+    <Property Name="Image" Type="varbinary(max)" />
+    <Property Name="Description" Type="nvarchar" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="ProductMaterial">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="MaterialId" Type="int" Nullable="false" />
+    <Property Name="MaterialQuantity" Type="int" />
+  </EntityType>
+  <EntityType Name="ProductSale">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductId" Type="int" />
+    <Property Name="SaleId" Type="int" />
+    <Property Name="Count" Type="int" />
+  </EntityType>
+  <EntityType Name="ProductType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Sale">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date" Type="date" />
+    <Property Name="AgentId" Type="int" />
+  </EntityType>
+  <EntityType Name="Unit">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Workshop">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Material_MaterialType">
+    <End Role="MaterialType" Type="Self.MaterialType" Multiplicity="0..1" />
+    <End Role="Material" Type="Self.Material" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MaterialType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Material">
+        <PropertyRef Name="MaterialTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Material_Unit">
+    <End Role="Unit" Type="Self.Unit" Multiplicity="0..1" />
+    <End Role="Material" Type="Self.Material" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Unit">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Material">
+        <PropertyRef Name="UnitId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_ProductType">
+    <End Role="ProductType" Type="Self.ProductType" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="ProductTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Product_Workshop">
+    <End Role="Workshop" Type="Self.Workshop" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Workshop">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="WorkshopId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductMaterial_Material">
+    <End Role="Material" Type="Self.Material" Multiplicity="1" />
+    <End Role="ProductMaterial" Type="Self.ProductMaterial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Material">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductMaterial">
+        <PropertyRef Name="MaterialId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductMaterial_Product">
+    <End Role="Product" Type="Self.Product" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ProductMaterial" Type="Self.ProductMaterial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductMaterial">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductSale_Product">
+    <End Role="Product" Type="Self.Product" Multiplicity="0..1" />
+    <End Role="ProductSale" Type="Self.ProductSale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductSale">
+        <PropertyRef Name="ProductId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProductSale_Sale">
+    <End Role="Sale" Type="Self.Sale" Multiplicity="0..1" />
+    <End Role="ProductSale" Type="Self.ProductSale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sale">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ProductSale">
+        <PropertyRef Name="SaleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sale_Agent">
+    <End Role="Agent" Type="Self.Agent" Multiplicity="0..1" />
+    <End Role="Sale" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Agent">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sale">
+        <PropertyRef Name="AgentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище LopushokChiypeshModelContainer">
+    <EntitySet Name="Agent" EntityType="Self.Agent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Material" EntityType="Self.Material" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MaterialType" EntityType="Self.MaterialType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductMaterial" EntityType="Self.ProductMaterial" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductSale" EntityType="Self.ProductSale" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductType" EntityType="Self.ProductType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sale" EntityType="Self.Sale" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Unit" EntityType="Self.Unit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Workshop" EntityType="Self.Workshop" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Material_MaterialType" Association="Self.FK_Material_MaterialType">
+      <End Role="MaterialType" EntitySet="MaterialType" />
+      <End Role="Material" EntitySet="Material" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Material_Unit" Association="Self.FK_Material_Unit">
+      <End Role="Unit" EntitySet="Unit" />
+      <End Role="Material" EntitySet="Material" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_ProductType" Association="Self.FK_Product_ProductType">
+      <End Role="ProductType" EntitySet="ProductType" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Product_Workshop" Association="Self.FK_Product_Workshop">
+      <End Role="Workshop" EntitySet="Workshop" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductMaterial_Material" Association="Self.FK_ProductMaterial_Material">
+      <End Role="Material" EntitySet="Material" />
+      <End Role="ProductMaterial" EntitySet="ProductMaterial" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductMaterial_Product" Association="Self.FK_ProductMaterial_Product">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="ProductMaterial" EntitySet="ProductMaterial" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductSale_Product" Association="Self.FK_ProductSale_Product">
+      <End Role="Product" EntitySet="Product" />
+      <End Role="ProductSale" EntitySet="ProductSale" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProductSale_Sale" Association="Self.FK_ProductSale_Sale">
+      <End Role="Sale" EntitySet="Sale" />
+      <End Role="ProductSale" EntitySet="ProductSale" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sale_Agent" Association="Self.FK_Sale_Agent">
+      <End Role="Agent" EntitySet="Agent" />
+      <End Role="Sale" EntitySet="Sale" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

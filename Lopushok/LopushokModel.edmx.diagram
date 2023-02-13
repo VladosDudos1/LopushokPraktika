@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3f81124117094c03b5d1eb911fd326e7" Name="Diagram1">
+        <EntityTypeShape EntityType="LopushokChiypeshModel.Agent" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LopushokChiypeshModel.Material" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LopushokChiypeshModel.MaterialType" Width="1.5" PointX="0.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LopushokChiypeshModel.Product" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LopushokChiypeshModel.ProductMaterial" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LopushokChiypeshModel.ProductSale" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LopushokChiypeshModel.ProductType" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="LopushokChiypeshModel.Sale" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LopushokChiypeshModel.Unit" Width="1.5" PointX="0.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LopushokChiypeshModel.Workshop" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="LopushokChiypeshModel.FK_Sale_Agent" ManuallyRouted="false" />
+        <AssociationConnector Association="LopushokChiypeshModel.FK_Material_MaterialType" ManuallyRouted="false" />
+        <AssociationConnector Association="LopushokChiypeshModel.FK_Material_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="LopushokChiypeshModel.FK_ProductMaterial_Material" ManuallyRouted="false" />
+        <AssociationConnector Association="LopushokChiypeshModel.FK_Product_ProductType" ManuallyRouted="false" />
+        <AssociationConnector Association="LopushokChiypeshModel.FK_Product_Workshop" ManuallyRouted="false" />
+        <AssociationConnector Association="LopushokChiypeshModel.FK_ProductMaterial_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="LopushokChiypeshModel.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="LopushokChiypeshModel.FK_ProductSale_Sale" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

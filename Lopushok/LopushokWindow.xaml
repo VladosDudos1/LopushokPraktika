@@ -1,0 +1,34 @@
+﻿<Window x:Class="Lopushok.LopushokWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lopushok"
+        mc:Ignorable="d"
+        Title="Лопушок"
+        Height="750" Width="1500"
+        MinHeight="750" MinWidth="1500"
+        FontFamily="Gabriola">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="80"/>
+            </Grid.ColumnDefinitions>
+
+
+            <Button x:Name="btnGoBack" Content="Назад" Grid.Column="0" Padding="8" Margin="10" FontSize="2" Visibility="Hidden" Click="btnGoBack_Click"/>
+            <TextBlock x:Name="tbTitle" Text="{Binding pageTitle}" Grid.Column="1" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Image Source="/Resources/logo.png" Grid.Column="2"/>
+
+        </Grid>
+
+        <Frame x:Name="frame" Grid.Row="1" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

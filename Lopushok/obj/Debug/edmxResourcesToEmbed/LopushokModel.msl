@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище LopushokChiypeshModelContainer" CdmEntityContainer="LopushokChiypeshEntities">
+    <EntitySetMapping Name="Agent">
+      <EntityTypeMapping TypeName="LopushokChiypeshModel.Agent">
+        <MappingFragment StoreEntitySet="Agent">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Material">
+      <EntityTypeMapping TypeName="LopushokChiypeshModel.Material">
+        <MappingFragment StoreEntitySet="Material">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MaterialTypeId" ColumnName="MaterialTypeId" />
+          <ScalarProperty Name="QuantityInPackage" ColumnName="QuantityInPackage" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+          <ScalarProperty Name="QuantityInStock" ColumnName="QuantityInStock" />
+          <ScalarProperty Name="MinRemainder" ColumnName="MinRemainder" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MaterialType">
+      <EntityTypeMapping TypeName="LopushokChiypeshModel.MaterialType">
+        <MappingFragment StoreEntitySet="MaterialType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product">
+      <EntityTypeMapping TypeName="LopushokChiypeshModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Article" ColumnName="Article" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="MinPrice" ColumnName="MinPrice" />
+          <ScalarProperty Name="ProductTypeId" ColumnName="ProductTypeId" />
+          <ScalarProperty Name="ManForProduction" ColumnName="ManForProduction" />
+          <ScalarProperty Name="WorkshopId" ColumnName="WorkshopId" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductMaterial">
+      <EntityTypeMapping TypeName="LopushokChiypeshModel.ProductMaterial">
+        <MappingFragment StoreEntitySet="ProductMaterial">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="MaterialId" ColumnName="MaterialId" />
+          <ScalarProperty Name="MaterialQuantity" ColumnName="MaterialQuantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductSale">
+      <EntityTypeMapping TypeName="LopushokChiypeshModel.ProductSale">
+        <MappingFragment StoreEntitySet="ProductSale">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="SaleId" ColumnName="SaleId" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductType">
+      <EntityTypeMapping TypeName="LopushokChiypeshModel.ProductType">
+        <MappingFragment StoreEntitySet="ProductType">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sale">
+      <EntityTypeMapping TypeName="LopushokChiypeshModel.Sale">
+        <MappingFragment StoreEntitySet="Sale">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="AgentId" ColumnName="AgentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Unit">
+      <EntityTypeMapping TypeName="LopushokChiypeshModel.Unit">
+        <MappingFragment StoreEntitySet="Unit">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Workshop">
+      <EntityTypeMapping TypeName="LopushokChiypeshModel.Workshop">
+        <MappingFragment StoreEntitySet="Workshop">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

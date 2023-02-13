@@ -1,0 +1,117 @@
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\bin\Debug\Lopushok.exe.config
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\bin\Debug\Lopushok.exe
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\bin\Debug\Lopushok.pdb
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\bin\Debug\EntityFramework.dll
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\bin\Debug\EntityFramework.xml
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Lopushok.csproj.AssemblyReference.cache
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Lopushok.csproj.SuggestedBindingRedirects.cache
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\LopushokWindow.g.cs
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Pages\ProductPage.g.cs
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Pages\ProductsListPage.g.cs
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Windows\EditPriceWindow.g.cs
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\App.g.cs
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Lopushok_Content.g.cs
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Lopushok_MarkupCompile.cache
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Lopushok_MarkupCompile.lref
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\App.baml
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\LopushokWindow.baml
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Pages\ProductPage.baml
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Pages\ProductsListPage.baml
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Windows\EditPriceWindow.baml
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Lopushok.g.resources
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Lopushok.Properties.Resources.resources
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Lopushok.csproj.GenerateResource.cache
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Lopushok.csproj.CoreCompileInputs.cache
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Lopushok.csproj.CopyComplete
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Lopushok.exe
+C:\Users\h4iru\Source\Repos\Lopushok1\Lopushok\obj\Debug\Lopushok.pdb
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\bin\Debug\Lopushok.exe.config
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\bin\Debug\Lopushok.exe
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\bin\Debug\Lopushok.pdb
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\bin\Debug\EntityFramework.dll
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\bin\Debug\EntityFramework.xml
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Lopushok.csproj.AssemblyReference.cache
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Lopushok.csproj.SuggestedBindingRedirects.cache
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\LopushokWindow.g.cs
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Pages\ProductPage.g.cs
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Pages\ProductsListPage.g.cs
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Windows\EditPriceWindow.g.cs
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\App.g.cs
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Lopushok_Content.g.cs
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Lopushok_MarkupCompile.cache
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Lopushok_MarkupCompile.lref
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\App.baml
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\LopushokWindow.baml
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Pages\ProductPage.baml
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Pages\ProductsListPage.baml
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Windows\EditPriceWindow.baml
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Lopushok.g.resources
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Lopushok.Properties.Resources.resources
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Lopushok.csproj.GenerateResource.cache
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Lopushok.csproj.CoreCompileInputs.cache
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Lopushok.csproj.CopyComplete
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Lopushok.exe
+C:\Users\h4iru\Desktop\LopushokKhairullin\Project\Lopushok\obj\Debug\Lopushok.pdb
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\bin\Debug\Lopushok.exe.config
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\bin\Debug\Lopushok.exe
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\bin\Debug\Lopushok.pdb
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\bin\Debug\EntityFramework.dll
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\bin\Debug\EntityFramework.xml
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.csproj.AssemblyReference.cache
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\LopushokWindow.g.cs
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Pages\ProductPage.g.cs
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Pages\ProductsListPage.g.cs
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Windows\EditPriceWindow.g.cs
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\App.g.cs
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Lopushok_Content.g.cs
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Lopushok_MarkupCompile.cache
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Lopushok_MarkupCompile.lref
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\App.baml
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\LopushokWindow.baml
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Pages\ProductPage.baml
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Pages\ProductsListPage.baml
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Windows\EditPriceWindow.baml
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.g.resources
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.Properties.Resources.resources
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.csproj.GenerateResource.cache
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.csproj.CoreCompileInputs.cache
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.csproj.CopyComplete
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.exe
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.pdb
+C:\Users\VladosDudos\Desktop\ChiypeshVladislav Lopushok\LopushokChiypesh\Lopushok\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\bin\Debug\Lopushok.exe.config
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\bin\Debug\Lopushok.exe
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\bin\Debug\Lopushok.pdb
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\bin\Debug\EntityFramework.dll
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\bin\Debug\EntityFramework.xml
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.csproj.AssemblyReference.cache
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.csproj.SuggestedBindingRedirects.cache
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\LopushokWindow.g.cs
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Pages\ProductPage.g.cs
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Pages\ProductsListPage.g.cs
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Windows\EditPriceWindow.g.cs
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\App.g.cs
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Lopushok_Content.g.cs
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Lopushok_MarkupCompile.cache
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Lopushok_MarkupCompile.lref
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\App.baml
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\LopushokWindow.baml
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Pages\ProductPage.baml
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Pages\ProductsListPage.baml
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Windows\EditPriceWindow.baml
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.g.resources
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.Properties.Resources.resources
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.csproj.GenerateResource.cache
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.csproj.CoreCompileInputs.cache
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.csproj.CopyComplete
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.exe
+C:\Users\201921\source\repos\LopushokChiypesh\Lopushok\obj\Debug\Lopushok.pdb
